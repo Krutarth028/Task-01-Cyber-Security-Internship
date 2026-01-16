@@ -1,0 +1,196 @@
+Cyber Security Basics & Attack Surface – Task 1
+1. Introduction to Cyber Security
+
+Cyber security is the practice of protecting systems, networks, and data from digital attacks. These attacks usually aim to access, change, or destroy sensitive information, extort money, or disrupt normal business operations.
+
+In today’s digital world, cyber security is critical for applications such as online banking, social media platforms, e-commerce websites, and cloud services.
+
+2. CIA Triad (Core Principles of Cyber Security)
+
+The CIA Triad represents the three fundamental goals of cyber security:
+
+2.1 Confidentiality
+
+Confidentiality ensures that sensitive information is accessible only to authorized users.
+
+Examples:
+
+Banking apps protecting account details with passwords and encryption
+
+WhatsApp using end-to-end encryption for messages
+
+Techniques used:
+
+Encryption
+
+Authentication
+
+Access control
+
+2.2 Integrity
+
+Integrity ensures that data is accurate, complete, and not altered without authorization.
+
+Examples:
+
+Transaction amounts in banking systems
+
+Exam results stored in university databases
+
+Techniques used:
+
+Hashing
+
+Digital signatures
+
+Checksums
+
+2.3 Availability
+
+Availability ensures that systems and data are accessible when needed.
+
+Examples:
+
+ATM services available 24/7
+
+Email servers running without interruption
+
+Threats to availability:
+
+DDoS attacks
+
+Server failures
+
+Ransomware
+
+3. Types of Cyber Attackers
+3.1 Script Kiddies
+
+Beginners with limited technical knowledge
+
+Use ready-made tools and scripts
+
+Motivated by curiosity or fun
+
+3.2 Insiders
+
+Employees or trusted users
+
+May intentionally or unintentionally cause harm
+
+Very dangerous due to legitimate access
+
+3.3 Hacktivists
+
+Attack for political or social reasons
+
+Target governments or organizations
+
+Examples: website defacement, data leaks
+
+3.4 Nation-State Attackers
+
+Sponsored by governments
+
+Highly skilled and well-funded
+
+Focus on espionage, cyber warfare, and infrastructure attacks
+
+4. Attack Surface
+
+An attack surface is the total number of points where an attacker can try to enter or extract data from a system.
+
+Common Attack Surfaces:
+
+Web applications
+
+Mobile applications
+
+APIs
+
+Networks
+
+Cloud infrastructure
+
+Databases
+
+Reducing the attack surface lowers the risk of attacks.
+
+5. OWASP Top 10 Overview
+
+The OWASP Top 10 is a list of the most critical web application security risks.
+
+Common OWASP Vulnerabilities:
+
+Broken Access Control
+
+Cryptographic Failures
+
+Injection (SQL Injection, Command Injection)
+
+Insecure Design
+
+Security Misconfiguration
+
+Vulnerable and Outdated Components
+
+Identification and Authentication Failures
+
+Software and Data Integrity Failures
+
+Security Logging and Monitoring Failures
+
+Server-Side Request Forgery (SSRF)
+
+Why they are dangerous:
+They allow attackers to steal data, bypass authentication, execute commands, or completely compromise systems.
+
+6. Mapping Daily-Use Applications to Attack Surfaces
+Example: Email Application
+
+Attack Surface: Web interface, login page, SMTP server
+
+Possible Attacks: Phishing, credential theft, malware attachments
+
+Example: Banking App
+
+Attack Surface: Mobile app, API, database
+
+Possible Attacks: Man-in-the-middle, SQL injection, credential stuffing
+
+7. Data Flow in an Application
+
+Typical Data Flow:
+User → Application (Web/Mobile) → Server → Database
+
+Possible Attack Points:
+
+User side: Phishing, malware
+
+Application layer: XSS, injection attacks
+
+Server: Misconfiguration, outdated software
+
+Database: Unauthorized access, data leakage
+
+8. Vulnerability vs Threat vs Risk
+
+Vulnerability: A weakness in a system (e.g., weak password)
+
+Threat: A potential danger that exploits a vulnerability (e.g., hacker)
+
+Risk: The impact and likelihood of a threat exploiting a vulnerability
+
+9. Importance of OWASP Top 10
+
+Acts as a security awareness standard
+
+Helps developers build secure applications
+
+Reduces common and critical security risks
+
+Widely accepted by the security industry
+
+10. Conclusion
+
+This task provided a strong foundation in cyber security concepts. Understanding the CIA triad, attack surfaces, attacker types, and OWASP Top 10 vulnerabilities is essential for identifying threats and protecting systems. These fundamentals are critical for anyone pursuing a career in cyber security.
